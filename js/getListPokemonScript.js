@@ -55,7 +55,7 @@ $.getJSON("https://pokeapi.co/api/v2/pokemon/?limit=949", function (pokemonList)
                 // create card title
 
 
-                $("#body"+namePokemon).append("<h6 class='card-title'  style='text-align: center'>" + namePokemon.toString().toUpperCase()+"</h6>");
+                $("#body"+namePokemon).append("<h6 class='card-title'  href='url' style='text-align: center'>" + namePokemon.toString().toUpperCase()+"</h6>");
 
         }
 

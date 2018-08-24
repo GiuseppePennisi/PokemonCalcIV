@@ -1,8 +1,8 @@
 /*column*/
 .card{
 
-    margin:5px 5px 5px 5px;
-    height: 90%;
+    margin:10px 10px 10px 10px;
+    height: 80%;
 }
 
 .card-img-top{
@@ -15,13 +15,14 @@
     margin-right: auto;
 }
 
-.card-title {
+.card-title{
 
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+
 
 }
-
 #listPokemon{
     grid-auto-columns: auto;
     grid-auto-rows: auto;
