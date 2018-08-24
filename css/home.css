@@ -1,0 +1,28 @@
+/*column*/
+.card{
+
+    margin:5px 5px 5px 5px;
+    height: 90%;
+}
+
+.card-img-top{
+
+    border: dot-dash #005cbf;
+
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#listPokemon{
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+}
